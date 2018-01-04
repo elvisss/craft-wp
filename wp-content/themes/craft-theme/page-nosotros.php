@@ -56,107 +56,197 @@
         <div class="main-boxes-team">
           <div class="boxes-team clearfix">
             <div class="box-team"></div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
+            <?php
+              $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+              $args = array(
+                'posts_per_page' => 5,
+                'paged' => $paged,
+                'post_type' => 'colaborador',
+                'meta_key' => 'collaborator_row',
+                'meta_value' => 1,
+                'compare' => '=',
+                'orderby' => 'date',
+                'order' => 'ASC'
+              );
+              $postslist = new WP_Query( $args );
+              $postCount = 0;
+
+              if ( $postslist->have_posts() ) :
+                while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
+            ?>
+
+              <div class="box-team box-team-animation-<?php echo $postCount ?> <?php the_field('collaborator_color') ?>">
+                <div class="single-panel">
+                  <div class="box-team-name"><?php echo get_the_title(); ?></div>
+                  <div class="box-team-rol"><?php the_field('collaborator_role') ?></div>
+                </div>
+                <div class="media-container">
+                  <div class="media-content">
+                    <div class="media" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"></div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="box-team gray-1">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
+
+            <?php
+                endwhile;
+              endif;
+            ?>
             <div class="box-team gray-1"></div>
           </div>
           <div class="boxes-team clearfix">
-            <div class="box-team gray-2">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
+            <?php
+              $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+              $args = array(
+                'posts_per_page' => 5,
+                'paged' => $paged,
+                'post_type' => 'colaborador',
+                'meta_key' => 'collaborator_row',
+                'meta_value' => 2,
+                'compare' => '=',
+                'orderby' => 'date',
+                'order' => 'ASC'
+              );
+              $postslist = new WP_Query( $args );
+              $postCount = 0;
+
+              if ( $postslist->have_posts() ) :
+                while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
+            ?>
+
+              <div class="box-team box-team-animation-<?php echo $postCount ?> <?php the_field('collaborator_color') ?>">
+                <div class="single-panel">
+                  <div class="box-team-name"><?php echo get_the_title(); ?></div>
+                  <div class="box-team-rol"><?php the_field('collaborator_role') ?></div>
+                </div>
+                <div class="media-container">
+                  <div class="media-content">
+                    <div class="media" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"></div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team gray-1">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
+
+            <?php
+                endwhile;
+              endif;
+            ?>
           </div>
           <div class="boxes-team clearfix">
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
+            <?php
+              $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+              $args = array(
+                'posts_per_page' => 5,
+                'paged' => $paged,
+                'post_type' => 'colaborador',
+                'meta_key' => 'collaborator_row',
+                'meta_value' => 3,
+                'compare' => '=',
+                'orderby' => 'date',
+                'order' => 'ASC'
+              );
+              $postslist = new WP_Query( $args );
+              $postCount = 0;
+
+              if ( $postslist->have_posts() ) :
+                while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
+            ?>
+
+              <div class="box-team box-team-animation-<?php echo $postCount ?> <?php the_field('collaborator_color') ?>">
+                <div class="single-panel">
+                  <div class="box-team-name"><?php echo get_the_title(); ?></div>
+                  <div class="box-team-rol"><?php the_field('collaborator_role') ?></div>
+                </div>
+                <div class="media-container">
+                  <div class="media-content">
+                    <div class="media" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"></div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="box-team gray-2">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
+
+              <?php if ( $postCount == 2 ) { ?>
+                <div class="box-team gray-3"></div>
+              <?php } ?>
+
+            <?php
+                endwhile;
+              endif;
+            ?>
+          </div>
+          <div class="boxes-team clearfix">
+            <?php
+              $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+              $args = array(
+                'posts_per_page' => 5,
+                'paged' => $paged,
+                'post_type' => 'colaborador',
+                'meta_key' => 'collaborator_row',
+                'meta_value' => 4,
+                'compare' => '=',
+                'orderby' => 'date',
+                'order' => 'ASC'
+              );
+              $postslist = new WP_Query( $args );
+              $postCount = 0;
+
+              if ( $postslist->have_posts() ) :
+                while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
+            ?>
+
+              <div class="box-team box-team-animation-<?php echo $postCount ?> <?php the_field('collaborator_color') ?>">
+                <div class="single-panel">
+                  <div class="box-team-name"><?php echo get_the_title(); ?></div>
+                  <div class="box-team-rol"><?php the_field('collaborator_role') ?></div>
+                </div>
+                <div class="media-container">
+                  <div class="media-content">
+                    <div class="media" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"></div>
+                  </div>
+                </div>
               </div>
-            </div>
+
+            <?php
+                endwhile;
+              endif;
+            ?>
             <div class="box-team gray-3"></div>
-            <div class="box-team gray-2">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
           </div>
           <div class="boxes-team clearfix">
-            <div class="box-team gray-2">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
+
+            <?php
+              $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+              $args = array(
+                'posts_per_page' => 5,
+                'paged' => $paged,
+                'post_type' => 'colaborador',
+                'meta_key' => 'collaborator_row',
+                'meta_value' => 5,
+                'compare' => '=',
+                'orderby' => 'date',
+                'order' => 'ASC'
+              );
+              $postslist = new WP_Query( $args );
+              $postCount = 0;
+
+              if ( $postslist->have_posts() ) :
+                while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
+            ?>
+
+              <div class="box-team box-team-last box-team-animation-<?php echo $postCount ?> <?php the_field('collaborator_color') ?>">
+                <div class="single-panel">
+                  <div class="box-team-name"><?php echo get_the_title(); ?></div>
+                  <div class="box-team-rol"><?php the_field('collaborator_role') ?></div>
+                </div>
+                <div class="media-container">
+                  <div class="media-content">
+                    <div class="media" style="background-image: url('<?php the_post_thumbnail_url(); ?>');"></div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="box-team">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
-            <div class="box-team gray-3"></div>
-          </div>
-          <div class="boxes-team clearfix">
-            <div class="box-team gray-2 box-team-last">
-              <div class="single-panel">
-                <div class="box-team-name">CARMEN JIMENEZ</div>
-                <div class="box-team-rol">ARQUITECTA</div>
-              </div>
-            </div>
+
+            <?php
+                endwhile;
+              endif;
+            ?>
+            
           </div>
         </div>
       </div>
@@ -178,7 +268,7 @@
                 <div class="card-header" id="heading<?php echo get_the_ID(); ?>" role="tab">
                   <h2 class="mb-0">
                     <a data-toggle="collapse" href="#collapse<?php echo get_the_ID(); ?>" aria-expanded="<?php echo $postCount == 1 ? 'true' : 'false'?>" aria-controls="collapse<?php echo get_the_ID(); ?>" <?php echo $postCount > 1 ? 'class="collapsed"' : '' ?>>
-                      <?php echo get_the_title(); ?> <span><?php the_field('collaborator_rol'); ?></span>
+                      <?php echo get_the_title(); ?> <span><?php the_field('collaborator_role'); ?></span>
                       <div class="accordion-ico">
                         <div class="horizontal"></div>
                         <div class="vertical"></div>

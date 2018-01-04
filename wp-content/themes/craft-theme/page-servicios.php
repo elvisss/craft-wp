@@ -50,18 +50,17 @@
           </div>
           <div class="box-service-opened fade">
             <div class="box-service-opened-wrap">
-              <div class="row no-gutters justify-content-center">
-                <div class="col-12 col-md-4">
+              <div class="row no-gutters justify-content-center align-items-center">
+                <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_oficinas.svg"></figure>
-                          </div>
-                        </div>
+                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                        <figure class="ico-service">
+                          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_oficinas.svg">
+                          <figcaption>OFICINAS</figcaption>
+                        </figure>
                       </div>
-                      <div class="col-7 offset-2 offset-md-1">
+                      <div class="col-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
@@ -73,17 +72,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_retail.svg"></figure>
-                          </div>
-                        </div>
+                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                        <figure class="ico-service">
+                          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_retail.svg">
+                          <figcaption>RETAIL</figcaption>
+                        </figure>
                       </div>
-                      <div class="col-7 offset-2 offset-md-1">
+                      <div class="col-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
@@ -142,18 +140,17 @@
           </div>
           <div class="box-service-opened fade">
             <div class="box-service-opened-wrap">
-              <div class="row no-gutters justify-content-center">
-                <div class="col-12 col-md-4">
+              <div class="row no-gutters justify-content-center align-items-center">
+                <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_construccion.svg"></figure>
-                          </div>
-                        </div>
+                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                        <figure class="ico-service">
+                          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_construccion.svg">
+                          <figcaption>CONSTRUCCIÓN</figcaption>
+                        </figure>
                       </div>
-                      <div class="col-7 offset-2 offset-md-1">
+                      <div class="col-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
@@ -168,14 +165,13 @@
                 <div class="col-12 col-md-4">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_implementacion.svg"></figure>
-                          </div>
-                        </div>
+                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                        <figure class="ico-service">
+                          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_implementacion.svg">
+                          <figcaption>IMPLEMENTACIÓN</figcaption>
+                        </figure>
                       </div>
-                      <div class="col-7 offset-2 offset-md-1">
+                      <div class="col-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
@@ -216,42 +212,47 @@
     ?>
   </div>
 
-  <div id="services-process">
+  <div class="wrap-process-carousel">
+    <div id="services-process">
 
-    <?php
-      $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-      $args = array( 'posts_per_page' => -1, 'paged' => $paged,'post_type' => 'servicio', 'orderby' => 'date', 'order' => 'ASC' );
-      $postslist = new WP_Query( $args );
+      <?php
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+        $args = array( 'posts_per_page' => -1, 'paged' => $paged,'post_type' => 'servicio', 'orderby' => 'date', 'order' => 'ASC' );
+        $postslist = new WP_Query( $args );
 
-      if ( $postslist->have_posts() ) :
-        while ( $postslist->have_posts() ) : $postslist->the_post();
-    ?>
+        if ( $postslist->have_posts() ) :
+          while ( $postslist->have_posts() ) : $postslist->the_post();
+      ?>
 
-      <div class="single-process">
-        <div class="row">
-          <div class="col-12 col-lg-3 col-xl-2">
-            <figure class="single-process-img"><img src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
-            </figure>
-          </div>
-          <div class="col-12 col-lg-6 col-xl-7">
-            <div class="d-table">
-              <div class="d-table-cell">
-                <div class="single-process-content">
-                  <h3><?php echo get_the_title(); ?></h3>
-                  <div class="single-process-body">
-                    <?php echo get_the_content(); ?>
+        <div class="single-process">
+          <div class="row">
+            <div class="col-12 col-lg-3 col-xl-2">
+              <figure class="single-process-img"><img src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
+              </figure>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-7">
+              <div class="d-table">
+                <div class="d-table-cell">
+                  <div class="single-process-content">
+                    <h3><?php echo get_the_title(); ?></h3>
+                    <div class="single-process-body">
+                      <?php echo get_the_content(); ?>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-    <?php
-        endwhile;
-      endif;
-    ?>
+      <?php
+          endwhile;
+        endif;
+      ?>
+    </div>
+    <div class="process-bottom">
+      <h5>PROCESO</h5>
+    </div>
   </div>
 
 </div>

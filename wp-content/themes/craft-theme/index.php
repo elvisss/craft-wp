@@ -36,6 +36,7 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
+  <div class="top-triangle d-none d-md-block"></div>
 </section>
 <section class="fluid-section" id="review-section">
   <div class="container-fluid">
@@ -43,8 +44,16 @@
       <div class="col-12 col-md-2 text-center">
         <div class="d-table">
           <div class="d-table-cell">
-            <div class="d-block d-md-none"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-black.png"></div>
-            <div class="d-none d-md-block"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-black-vertical.png"></div>
+            <div class="d-block d-md-none">
+              <div class="about-horizontal">
+                <?php include (TEMPLATEPATH . '/partials/logo.php'); ?>
+              </div>
+            </div>
+            <div class="d-none d-md-block">
+              <div class="about-vertical">
+                <?php include (TEMPLATEPATH . '/partials/logo.php'); ?>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -65,34 +74,31 @@
 </section>
 <section class="fluid-section" id="home-services">
   <div class="boxes-services">
+    <div class="d-none d-lg-block title-section">
+      <h5>SERVICIOS</h5>
+    </div>
     <div class="box-service box-architecture">
       <div class="box-service-wrapper">
         <div class="box-service-wrap box-service-toggle">
-          <div class="box-service-wrap-content">
-            <div class="row no-gutters">
-              <div class="col-3">
-                <div class="d-table">
-                  <div class="d-table-cell">
-                    <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png"></figure>
-                  </div>
-                </div>
+          <div class="box-service-wrap-content left-space">
+            <div class="row no-gutters align-items-center">
+              <div class="col-2">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png">
+                </figure>
               </div>
               <div class="col-3">
                 <div class="number-service">
                   <h5>1</h5>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="d-table">
-                  <div class="d-table-cell">
-                    <div class="desc-service">
-                      <div class="title-service">
-                        <h4>ARQUITECTURA</h4>
-                      </div>
-                      <div class="desc-service">
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                      </div>
-                    </div>
+              <div class="col-7">
+                <div class="desc-service">
+                  <div class="title-service">
+                    <h4>ARQUITECTURA</h4>
+                  </div>
+                  <div class="desc-service">
+                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                   </div>
                 </div>
               </div>
@@ -104,31 +110,25 @@
     <div class="box-service box-construction">
       <div class="box-service-wrapper">
         <div class="box-service-wrap box-service-toggle">
-          <div class="box-service-wrap-content">
-            <div class="row no-gutters">
-              <div class="col-3">
-                <div class="d-table">
-                  <div class="d-table-cell">
-                    <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png"></figure>
-                  </div>
-                </div>
+          <div class="box-service-wrap-content right-space">
+            <div class="row no-gutters align-items-center">
+              <div class="col-2">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png">
+                </figure>
               </div>
               <div class="col-3">
                 <div class="number-service">
                   <h5>2</h5>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="d-table">
-                  <div class="d-table-cell">
-                    <div class="desc-service">
-                      <div class="title-service">
-                        <h4>CONSTRUCCIÓN</h4>
-                      </div>
-                      <div class="desc-service">
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                      </div>
-                    </div>
+              <div class="col-7">
+                <div class="desc-service">
+                  <div class="title-service">
+                    <h4>CONSTRUCCIÓN</h4>
+                  </div>
+                  <div class="desc-service">
+                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                   </div>
                 </div>
               </div>
@@ -137,11 +137,14 @@
         </div>
       </div>
     </div>
+    <div class="d-none d-lg-block view-more">
+      <a class="btn btn-black" href="./servicios">VER MÁS</a>
+    </div>
   </div>
 </section>
 <section class="fluid-section" id="brands-section">
   <div class="wrap-brands">
-    <div class="wrap-brands-container">
+    <div class="wrap-brands-container swiper-button-black">
       <div class="swiper-container" id="brands-slider">
         <div class="swiper-wrapper">
           <?php
@@ -210,35 +213,31 @@
   </div>
 </section>
 <section class="fluid-section" id="contact-section">
-  <div id="googlemaps"></div>
-  <div id="box-contact">
-    <div class="body-contact">
-      <h4>CONTÁCTANOS</h4>
-      <div class="box-contact-wrap">
-        <div class="box-contact-single contact-address">
-          <div class="d-table">
-            <div class="d-table-cell">
+  <div class="main-wrapper">
+    <div id="googlemaps"></div>
+    <div id="box-contact">
+      <div class="body-contact">
+        <h4>CONTÁCTANOS</h4>
+        <div class="box-contact-wrap">
+          <div class="row no-gutters justify-content-between align-items-center single-contact">
+            <div class="col-2 contact-address"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-address.svg"></div>
+            <div class="col-9">
               <p>Av. Cotralmirante Montero<br /> N° 421 Of. 6D - Magdalena del Mar</p>
             </div>
           </div>
-        </div>
-        <div class="box-contact-single contact-phone">
-          <div class="d-table">
-            <div class="d-table-cell">
+          <div class="row no-gutters justify-content-between align-items-center single-contact">
+            <div class="col-2 contact-phone"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-phone.svg"></div>
+            <div class="col-9">
               <p>(51) 01-715672</p>
             </div>
           </div>
-        </div>
-        <div class="box-contact-single contact-email">
-          <div class="d-table">
-            <div class="d-table-cell">
-              <p><a href="mailto:jgalindo@craft.com.pe">jgalindo@craft.com.pe</a></p>
-            </div>
+          <div class="row no-gutters justify-content-between align-items-center single-contact">
+            <div class="col-2 contact-email"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-email.svg"></div>
+            <div class="col-9"><a href="mailto:jgalindo@craft.com.pe">jgalindo@craft.com.pe</a></div>
           </div>
-        </div>
-        <div class="box-contact-single contact-web">
-          <div class="d-table">
-            <div class="d-table-cell">
+          <div class="row no-gutters justify-content-between align-items-center single-contact">
+            <div class="col-2 contact-web"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-web.svg"></div>
+            <div class="col-9">
               <p><a href="http://www.craft.com.pe">craft.com.pe</a></p>
             </div>
           </div>
