@@ -19,7 +19,7 @@
           <div class="box-service-wrap box-service-toggle fade show" data-section="left">
             <div class="box-service-wrap-content">
               <div class="row no-gutters">
-                <div class="col-3">
+                <div class="col-3 offset-1 offset-md-0">
                   <div class="d-table">
                     <div class="d-table-cell">
                       <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png"></figure>
@@ -54,7 +54,7 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                      <div class="col-3 offset-1 offset-md-1">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_oficinas.svg">
                           <figcaption>OFICINAS</figcaption>
@@ -75,7 +75,7 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                      <div class="col-3 offset-1 offset-md-1">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_retail.svg">
                           <figcaption>RETAIL</figcaption>
@@ -109,7 +109,7 @@
           <div class="box-service-wrap box-service-toggle fade show" data-section="right">
             <div class="box-service-wrap-content">
               <div class="row no-gutters">
-                <div class="col-3">
+                <div class="col-3 offset-1 offset-md-0">
                   <div class="d-table">
                     <div class="d-table-cell">
                       <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png"></figure>
@@ -144,7 +144,7 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                      <div class="col-3 offset-1 offset-md-1">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_construccion.svg">
                           <figcaption>CONSTRUCCIÓN</figcaption>
@@ -165,7 +165,7 @@
                 <div class="col-12 col-md-4">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-2 col-md-3 offset-1 offset-md-1">
+                      <div class="col-3 offset-1 offset-md-1">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_implementacion.svg">
                           <figcaption>IMPLEMENTACIÓN</figcaption>
