@@ -254,7 +254,7 @@
       </div>
     </div>
     <div class="accordion-team d-block d-lg-none">
-      <h3>NUESTRO EQUIPO</h3>
+      <h3 class="block-black">NUESTRO EQUIPO</h3>
       <div id="team-accordion" role="tablist">
         <?php
           $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

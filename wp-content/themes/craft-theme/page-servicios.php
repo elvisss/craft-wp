@@ -197,12 +197,13 @@
       $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
       $args = array( 'posts_per_page' => -1, 'paged' => $paged,'post_type' => 'servicio', 'orderby' => 'date', 'order' => 'ASC' );
       $postslist = new WP_Query( $args );
+      $count = $postslist->post_count;
       $postCount = 0;
 
       if ( $postslist->have_posts() ) :
         while ( $postslist->have_posts() ) : $postslist->the_post(); $postCount++;
     ?>
-      <div class="box-nav-process <?php echo $postCount % 2 == 0 ? 'box-nav-top' : '' ?>">
+      <div class="box-nav-process<?php echo $postCount % 2 == 0 ? ' box-nav-top' : '' ?><?php echo $postCount == 1 ? ' box-nav-top-first' : '' ?><?php echo $postCount == $count ? ' box-nav-top-last' : '' ?>">
         <div class="box-nav-number"><span><?php echo $postCount < 10 ? '0' . $postCount : $postCount; ?></span></div>
         <div class="box-nav-text"><span><?php echo get_the_title(); ?></span></div>
       </div>
@@ -257,6 +258,7 @@
 
 </div>
 <div class="wrap-process-nav d-block d-lg-none">
+  <h3 class="block-black">PROCESOS</h3>
   <div class="boxes-plans">
     <div id="plans-accordion" role="tablist">
       <?php
