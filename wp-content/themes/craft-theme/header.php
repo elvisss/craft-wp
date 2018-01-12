@@ -26,7 +26,7 @@
           <div class="ml-auto d-block d-md-none collapsed" id="burger-menu" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
             <div class="nav-icon"><span></span><span></span><span></span></div>
           </div>
-          <div class="collapse navbar-collapse" id="navbarMain">
+          <div class="collapse navbar-collapse <?php if( is_home() ): ?>navbar-shadow<?php endif; ?>" id="navbarMain">
             <?php wp_nav_menu( array(
               'container' => false,
               'theme_location' => 'primary-menu',
