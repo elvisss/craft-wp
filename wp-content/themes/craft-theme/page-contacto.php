@@ -12,28 +12,7 @@
       <div class="body-contact">
         <h4>CONTÁCTANOS</h4>
         <div class="box-contact-wrap">
-          <div class="row no-gutters justify-content-between align-items-center single-contact">
-            <div class="col-2 contact-address"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-address.svg"></div>
-            <div class="col-9">
-              <p>Av. Cotralmirante Montero<br /> N° 421 Of. 6D - Magdalena del Mar</p>
-            </div>
-          </div>
-          <div class="row no-gutters justify-content-between align-items-center single-contact">
-            <div class="col-2 contact-phone"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-phone.svg"></div>
-            <div class="col-9">
-              <p>(51) 01-715672</p>
-            </div>
-          </div>
-          <div class="row no-gutters justify-content-between align-items-center single-contact">
-            <div class="col-2 contact-email"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-email.svg"></div>
-            <div class="col-9"><a href="mailto:jgalindo@craft.com.pe">jgalindo@craft.com.pe</a></div>
-          </div>
-          <div class="row no-gutters justify-content-between align-items-center single-contact">
-            <div class="col-2 contact-web"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-web.svg"></div>
-            <div class="col-9">
-              <p><a href="http://www.craft.com.pe">craft.com.pe</a></p>
-            </div>
-          </div>
+          <?php include (TEMPLATEPATH . '/partials/contact.php'); ?>
           <div class="buttons-contact">
             <a class="btn btn-block btn-transparent" href="#">CALIFÍCANOS EN FACEBOOK</a>
             <a class="btn btn-block btn-transparent" href="#" data-target=".modal-contact" data-toggle="modal">CUÉNTANOS DE TU PROYECTO</a>

@@ -115,7 +115,7 @@
                   <div class="d-table">
                     <div class="d-table-cell">
                       <figure class="main-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.svg">
                       </figure>
                     </div>
                   </div>

@@ -54,7 +54,9 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
-          // autoplay: 3000,
+          autoplay: {
+              delay: 5000
+          },
           autoplayDisableOnInteraction: false,
           loop: true
         });
@@ -64,17 +66,16 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
-          // autoplay: 3000,
+          autoplay: {
+              delay: 3000
+          },
           autoplayDisableOnInteraction: false,
           loop: true,
           slidesPerView: 5,
-          // spaceBetween: 40,
           centeredSlides: true,
           breakpoints: {
-            // when window width is <= 768px
             768: {
               slidesPerView: 3
-              // spaceBetween: 30
             }
           }
         });
@@ -84,10 +85,12 @@
             el: '.swiper-pagination',
             clickable: true
           },
-          slidesPerView: 1
-          // autoplay: 3000,
-          // autoplayDisableOnInteraction: false,
-          // loop: true
+          slidesPerView: 1,
+          autoplay: {
+              delay: 8000
+          },
+          autoplayDisableOnInteraction: false,
+          loop: true
         });
 
         var gmapStyle = [
