@@ -7,7 +7,7 @@
 
 <div class="content-page">
   <section class="fluid-section" id="home-services">
-    <div class="boxes-services with-arrow">
+    <div class="boxes-services">
       <div class="box-service box-architecture">
         <div class="box-service-top d-none d-md-block">
           <div class="box-servie-top-content"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png">
@@ -193,6 +193,7 @@
         </div>
       </div>
     </div>
+    <div class="with-arrow"></div>
   </section>
 </div>
 <div class="wrap-process-nav d-none d-lg-block">

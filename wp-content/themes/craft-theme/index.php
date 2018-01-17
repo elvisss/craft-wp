@@ -84,7 +84,7 @@
             <div class="row no-gutters align-items-center justify-content-md-end">
               <div class="col-2 offset-1 offset-md-0">
                 <figure class="main-image">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.svg">
                 </figure>
               </div>
               <div class="col-3 col-md-4">
@@ -114,7 +114,7 @@
             <div class="row no-gutters align-items-center">
               <div class="col-2 offset-1 offset-md-0">
                 <figure class="main-image">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.svg">
                 </figure>
               </div>
               <div class="col-3 col-md-4">
@@ -168,8 +168,8 @@
           ?>
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next d-none d-md-block"></div>
+      <div class="swiper-button-prev d-none d-md-block"></div>
     </div>
   </div>
 </section>

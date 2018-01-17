@@ -72,10 +72,9 @@
           autoplayDisableOnInteraction: false,
           loop: true,
           slidesPerView: 5,
-          centeredSlides: true,
           breakpoints: {
             768: {
-              slidesPerView: 3
+              slidesPerView: 2
             }
           }
         });
