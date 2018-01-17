@@ -81,18 +81,18 @@
       <div class="box-service-wrapper">
         <div class="box-service-wrap box-service-toggle">
           <div class="box-service-wrap-content left-space">
-            <div class="row no-gutters align-items-center">
-              <div class="col-2">
-                <figure>
+            <div class="row no-gutters align-items-center justify-content-md-end">
+              <div class="col-2 offset-1 offset-md-0">
+                <figure class="main-image">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png">
                 </figure>
               </div>
-              <div class="col-3">
+              <div class="col-3 col-md-4">
                 <div class="number-service">
                   <h5>1</h5>
                 </div>
               </div>
-              <div class="col-7">
+              <div class="col-5 col-md-6">
                 <div class="desc-service">
                   <div class="title-service">
                     <h4>ARQUITECTURA</h4>
@@ -112,17 +112,17 @@
         <div class="box-service-wrap box-service-toggle">
           <div class="box-service-wrap-content right-space">
             <div class="row no-gutters align-items-center">
-              <div class="col-2">
-                <figure>
+              <div class="col-2 offset-1 offset-md-0">
+                <figure class="main-image">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png">
                 </figure>
               </div>
-              <div class="col-3">
+              <div class="col-3 col-md-4">
                 <div class="number-service">
                   <h5>2</h5>
                 </div>
               </div>
-              <div class="col-7">
+              <div class="col-5 col-md-6">
                 <div class="desc-service">
                   <div class="title-service">
                     <h4>CONSTRUCCIÓN</h4>

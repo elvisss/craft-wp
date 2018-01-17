@@ -18,15 +18,17 @@
         <div class="box-service-wrapper">
           <div class="box-service-wrap box-service-toggle fade show" data-section="left">
             <div class="box-service-wrap-content">
-              <div class="row no-gutters">
-                <div class="col-3 offset-1 offset-md-0">
+              <div class="row no-gutters justify-content-md-end">
+                <div class="col-2 offset-1 offset-md-0">
                   <div class="d-table">
                     <div class="d-table-cell">
-                      <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.png"></figure>
+                      <figure class="main-image">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.svg">
+                      </figure>
                     </div>
                   </div>
                 </div>
-                <div class="col-2 col-md-3">
+                <div class="col-3 col-md-3">
                   <div class="number-service">
                     <h5>1</h5>
                   </div>
@@ -54,17 +56,17 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3 offset-1 offset-md-1">
+                      <div class="col-3 col-md-4 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_oficinas.svg">
                           <figcaption>OFICINAS</figcaption>
                         </figure>
                       </div>
-                      <div class="col-6 offset-1">
+                      <div class="col-6 col-md-7 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                             </div>
                           </div>
                         </div>
@@ -75,17 +77,17 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3 offset-1 offset-md-1">
+                      <div class="col-3 col-md-4 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_retail.svg">
                           <figcaption>RETAIL</figcaption>
                         </figure>
                       </div>
-                      <div class="col-6 offset-1">
+                      <div class="col-6 col-md-7 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                             </div>
                           </div>
                         </div>
@@ -109,14 +111,16 @@
           <div class="box-service-wrap box-service-toggle fade show" data-section="right">
             <div class="box-service-wrap-content">
               <div class="row no-gutters">
-                <div class="col-3 offset-1 offset-md-0">
+                <div class="col-2 offset-1 offset-md-0">
                   <div class="d-table">
                     <div class="d-table-cell">
-                      <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png"></figure>
+                      <figure class="main-image">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.png">
+                      </figure>
                     </div>
                   </div>
                 </div>
-                <div class="col-2 col-md-3">
+                <div class="col-3 col-md-4">
                   <div class="number-service">
                     <h5>2</h5>
                   </div>
@@ -144,17 +148,17 @@
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3 offset-1 offset-md-1">
+                      <div class="col-3 col-md-5 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_construccion.svg">
-                          <figcaption>CONSTRUCCIÓN</figcaption>
+                          <figcaption class="force-black">CONSTRUCCIÓN</figcaption>
                         </figure>
                       </div>
-                      <div class="col-6 offset-1">
+                      <div class="col-6 col-md-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                             </div>
                           </div>
                         </div>
@@ -165,17 +169,17 @@
                 <div class="col-12 col-md-4">
                   <div class="box-service-opened-content">
                     <div class="row no-gutters">
-                      <div class="col-3 offset-1 offset-md-1">
+                      <div class="col-3 col-md-5 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_implementacion.svg">
-                          <figcaption>IMPLEMENTACIÓN</figcaption>
+                          <figcaption class="force-black">IMPLEMENTACIÓN</figcaption>
                         </figure>
                       </div>
-                      <div class="col-6 offset-1">
+                      <div class="col-6 col-md-6 offset-1">
                         <div class="d-table">
                           <div class="d-table-cell">
                             <div class="desc-service">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                             </div>
                           </div>
                         </div>
