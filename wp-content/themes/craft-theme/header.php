@@ -68,3 +68,5 @@
         </nav>
       </div>
     </header>
+
+    <?php include (TEMPLATEPATH . '/partials/float-form.php'); ?>

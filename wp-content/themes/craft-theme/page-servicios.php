@@ -18,15 +18,11 @@
         <div class="box-service-wrapper">
           <div class="box-service-wrap box-service-toggle fade show" data-section="left">
             <div class="box-service-wrap-content">
-              <div class="row no-gutters justify-content-md-end">
+              <div class="row no-gutters justify-content-md-end align-items-center">
                 <div class="col-2 offset-1 offset-md-0">
-                  <div class="d-table">
-                    <div class="d-table-cell">
-                      <figure class="main-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.svg">
-                      </figure>
-                    </div>
-                  </div>
+                  <figure class="main-image">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/architecture.svg">
+                  </figure>
                 </div>
                 <div class="col-3 col-md-3">
                   <div class="number-service">
@@ -34,16 +30,12 @@
                   </div>
                 </div>
                 <div class="col-5 col-md-6">
-                  <div class="d-table">
-                    <div class="d-table-cell">
-                      <div class="desc-service">
-                        <div class="title-service">
-                          <h4>ARQUITECTURA</h4>
-                        </div>
-                        <div class="desc-service">
-                          <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                        </div>
-                      </div>
+                  <div class="desc-service">
+                    <div class="title-service">
+                      <h4>ARQUITECTURA</h4>
+                    </div>
+                    <div class="desc-service">
+                      <?php include (TEMPLATEPATH . '/partials/architecture.php'); ?>
                     </div>
                   </div>
                 </div>
@@ -55,7 +47,7 @@
               <div class="row no-gutters justify-content-center align-items-center">
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters align-items-center">
                       <div class="col-3 col-md-4 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_oficinas.svg">
@@ -63,12 +55,8 @@
                         </figure>
                       </div>
                       <div class="col-6 col-md-7 offset-1">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <div class="desc-service">
-                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                            </div>
-                          </div>
+                        <div class="desc-service">
+                          <p>Las soluciones arquitectónicas corporativas se reflejan en cada uno de los proyectos realizados que va desde recepción de casco gris, hasta la implementación del mobiliario, dejándolo apto para iniciar sus actividades.</p>
                         </div>
                       </div>
                     </div>
@@ -76,7 +64,7 @@
                 </div>
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters align-items-center">
                       <div class="col-3 col-md-4 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/arquitectura_retail.svg">
@@ -84,12 +72,8 @@
                         </figure>
                       </div>
                       <div class="col-6 col-md-7 offset-1">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <div class="desc-service">
-                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                            </div>
-                          </div>
+                        <div class="desc-service">
+                          <p>Desarrollamos nuestros proyectos siempre pensando en potenciar la experiencia de los clientes frente a la marca.</p>
                         </div>
                       </div>
                     </div>
@@ -110,15 +94,11 @@
         <div class="box-service-wrapper">
           <div class="box-service-wrap box-service-toggle fade show" data-section="right">
             <div class="box-service-wrap-content">
-              <div class="row no-gutters">
+              <div class="row no-gutters align-items-center">
                 <div class="col-2 offset-1 offset-md-0">
-                  <div class="d-table">
-                    <div class="d-table-cell">
-                      <figure class="main-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.svg">
-                      </figure>
-                    </div>
-                  </div>
+                  <figure class="main-image">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction.svg">
+                  </figure>
                 </div>
                 <div class="col-3 col-md-4">
                   <div class="number-service">
@@ -126,16 +106,12 @@
                   </div>
                 </div>
                 <div class="col-5 col-md-6">
-                  <div class="d-table">
-                    <div class="d-table-cell">
-                      <div class="desc-service">
-                        <div class="title-service">
-                          <h4>CONSTRUCCIÓN</h4>
-                        </div>
-                        <div class="desc-service">
-                          <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                        </div>
-                      </div>
+                  <div class="desc-service">
+                    <div class="title-service">
+                      <h4>CONSTRUCCIÓN</h4>
+                    </div>
+                    <div class="desc-service">
+                      <?php include (TEMPLATEPATH . '/partials/construction.php'); ?>
                     </div>
                   </div>
                 </div>
@@ -147,7 +123,7 @@
               <div class="row no-gutters justify-content-center align-items-center">
                 <div class="col-12 col-md-5">
                   <div class="box-service-opened-content">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters align-items-center">
                       <div class="col-3 col-md-5 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_construccion.svg">
@@ -155,12 +131,8 @@
                         </figure>
                       </div>
                       <div class="col-6 col-md-6 offset-1">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <div class="desc-service">
-                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                            </div>
-                          </div>
+                        <div class="desc-service">
+                          <p>Es la ejecución de los planos diseño y desarrollo de ingenierías.</p>
                         </div>
                       </div>
                     </div>
@@ -168,7 +140,7 @@
                 </div>
                 <div class="col-12 col-md-4">
                   <div class="box-service-opened-content">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters align-items-center">
                       <div class="col-3 col-md-5 offset-1 offset-md-0">
                         <figure class="ico-service">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construccion_implementacion.svg">
@@ -176,12 +148,8 @@
                         </figure>
                       </div>
                       <div class="col-6 col-md-6 offset-1">
-                        <div class="d-table">
-                          <div class="d-table-cell">
-                            <div class="desc-service">
-                              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                            </div>
-                          </div>
+                        <div class="desc-service">
+                          <p>Integramos la implementación e inclusive el mobiliario y señalética, dejándolo listo para su operatividad.</p>
                         </div>
                       </div>
                     </div>

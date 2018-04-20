@@ -29,7 +29,7 @@
         <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
       <div class="modal-body">
-        <div class="modal-body-form">
+        <div class="contact-body-form">
           <?php echo do_shortcode( '[contact-form-7 id="67" title="Cuéntanos tu proyecto"]' ); ?>
         </div>
       </div>
@@ -43,7 +43,7 @@
         <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
       <div class="modal-body">
-        <div class="modal-body-form">
+        <div class="contact-body-form">
           <?php echo do_shortcode( '[contact-form-7 id="68" title="Trabaja con nosotros"]' ); ?>
         </div>
       </div>

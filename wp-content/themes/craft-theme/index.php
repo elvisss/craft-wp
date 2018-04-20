@@ -98,7 +98,7 @@
                     <h4>ARQUITECTURA</h4>
                   </div>
                   <div class="desc-service">
-                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <?php include (TEMPLATEPATH . '/partials/architecture.php'); ?>
                   </div>
                 </div>
               </div>
@@ -128,7 +128,7 @@
                     <h4>CONSTRUCCIÓN</h4>
                   </div>
                   <div class="desc-service">
-                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <?php include (TEMPLATEPATH . '/partials/construction.php'); ?>
                   </div>
                 </div>
               </div>

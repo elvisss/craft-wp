@@ -1,0 +1,1 @@
+<p>Nos guiamos por los estándares del PMI e ISO9000, donde se maneja el sistema de gestión seguridad y calidad para cada obra, y de ser necesario, adecuándonos también a los requerimientos específicos de cada cliente, siguiendo estándares de supervisión y control de calidad constantes para cumplir con la programación y rentabilidad de cada proyecto.</p>
