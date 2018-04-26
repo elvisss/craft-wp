@@ -15,7 +15,7 @@
     </div>
     <div class="float-triangle d-none d-md-block"></div>
     <div class="float-form-wrap">
-      <div class="float-body-form">
+      <div class="float-body-form valid-body-form">
         <?php echo do_shortcode( '[contact-form-7 id="85" title="Solicita una cotización"]' ); ?>
       </div>
     </div>

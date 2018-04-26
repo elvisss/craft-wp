@@ -138,7 +138,7 @@
       </div>
     </div>
     <div class="d-none d-lg-block view-more">
-      <a class="btn btn-black" href="./servicios">VER MÁS</a>
+      <a class="btn btn-black" href="./?page_id=38">VER MÁS</a>
     </div>
   </div>
 </section>
@@ -213,7 +213,7 @@
   </div>
 </section>
 <section class="fluid-section" id="contact-section">
-  <div class="main-wrapper">
+  <div class="main-wrapper main-sm-wrapper">
     <div id="googlemaps"></div>
     <div id="box-contact">
       <div class="body-contact">

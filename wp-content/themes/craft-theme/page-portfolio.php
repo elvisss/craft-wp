@@ -243,18 +243,16 @@
     </div>
     <div class="actions-projects">
       <div class="filter-projects">
-        <div class="filter-options clearfix"><a href="javascript:void(0)" data-group="architecture">ARQUITECTURA</a><a href="javascript:void(0)" data-group="construction">CONSTRUCCIÓN</a><a class="d-none d-md-inline-block" href="javascript:void(0)" data-group="all">MOSTRAR TODOS</a></div>
+        <div class="filter-options clearfix">
+          <a class="brw" href="javascript:void(0)" data-group="architecture">ARQUITECTURA</a>
+          <a class="blw" href="javascript:void(0)" data-group="construction">CONSTRUCCIÓN</a>
+        </div>
       </div>
       <div class="sort-projects">
         <div class="sort-options">
           <div class="sort-option">
-            <label>
-              <input type="radio" name="sort-value" value="date-created">CRONOLÓGICO
-            </label>
-          </div>
-          <div class="sort-option">
-            <label>
-              <input type="radio" name="sort-value" value="name">CLIENTE
+            <label for="sort-services">
+              <input type="radio" name="sort-value" value="name" id="sort-services">CLIENTE
             </label>
           </div>
           <div class="sort-option">
@@ -263,8 +261,8 @@
             </label>
           </div>
           <div class="sort-option">
-            <label>
-              <input type="radio" name="sort-value" value="area">ÁREA
+            <label for="sort-area">
+              <input type="radio" name="sort-value" value="area" id="sort-area">ÁREA
             </label>
           </div>
         </div>

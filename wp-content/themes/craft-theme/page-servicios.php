@@ -248,7 +248,7 @@
           <div class="card-header" id="heading<?php echo get_the_ID(); ?>" role="tab">
             <h2 class="mb-0">
               <a data-toggle="collapse" href="#collapse<?php echo get_the_ID(); ?>" aria-expanded="<?php echo $postCount == 1 ? 'true' : 'false'?>" aria-controls="collapse<?php echo get_the_ID(); ?>" <?php echo $postCount > 1 ? 'class="collapsed"' : '' ?>>
-                <?php echo $postCount < 10 ? '0' . $postCount : $postCount; ?>. <?php echo get_the_title(); ?>
+                <?php echo get_the_title(); ?>
                 <div class="accordion-ico">
                   <div class="horizontal"></div>
                   <div class="vertical"></div>

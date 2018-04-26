@@ -6,7 +6,7 @@
 ?>
 
 <section class="fluid-full-section">
-  <div class="main-wrapper">
+  <div class="main-wrapper main-sm-wrapper">
     <div id="googlemaps"></div>
     <div id="box-contact">
       <div class="body-contact">
@@ -29,7 +29,7 @@
         <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
       <div class="modal-body">
-        <div class="contact-body-form">
+        <div class="contact-body-form valid-body-form">
           <?php echo do_shortcode( '[contact-form-7 id="67" title="Cuéntanos tu proyecto"]' ); ?>
         </div>
       </div>
