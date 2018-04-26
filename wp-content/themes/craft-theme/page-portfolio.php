@@ -67,7 +67,7 @@
                 <h2 class="title-widget">ÁREA</h2>
                 <div class="js-areas">
                   <ul class="list-bullet">
-                    <li data-value="low"><span>100 - 500</span></li>
+                    <li data-value="low"><span>0 - 500</span></li>
                     <li data-value="high"><span>500 - 1000</span></li>
                   </ul>
                 </div>
@@ -435,34 +435,34 @@
                     </div>
                   </div>
                   <ul class="project-services clearfix">
-                    <li class="project-service <?php echo $conceptualization ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso1.svg" alt="">
+                    <li class="project-service <?php echo $conceptualization ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso1.svg" title="Conceptualización" alt="Conceptualización">
                       <div class="project-service-text">Conceptualización</div>
                     </li>
-                    <li class="project-service <?php echo $distribution ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso2.svg" alt="">
+                    <li class="project-service <?php echo $distribution ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso2.svg" title="Distribución Espacial" alt="Distribución Espacial">
                       <div class="project-service-text">Distribución Espacial</div>
                     </li>
-                    <li class="project-service <?php echo $planimetry ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso3.svg" alt="">
+                    <li class="project-service <?php echo $planimetry ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso3.svg" title="Planimetría arquitectónica" alt="Planimetría arquitectónica">
                       <div class="project-service-text">Planimetría arquitectónica</div>
                     </li>
-                    <li class="project-service <?php echo $selection ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso4.svg" alt="">
+                    <li class="project-service <?php echo $selection ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso4.svg" title="Selección de Acabados" alt="Selección de Acabados">
                       <div class="project-service-text">Selección de Acabados</div>
                     </li>
-                    <li class="project-service <?php echo $engineering ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso5.svg" alt="">
+                    <li class="project-service <?php echo $engineering ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso5.svg" title="Ingenierias de detalle" alt="Ingenierias de detalle">
                       <div class="project-service-text">Ingenierias de detalle</div>
                     </li>
-                    <li class="project-service <?php echo $ejecution ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso6.svg" alt="">
+                    <li class="project-service <?php echo $ejecution ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso6.svg" title="Construcción" alt="Construcción">
                       <div class="project-service-text">Construcción</div>
                     </li>
-                    <li class="project-service <?php echo $implementation ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso7.svg" alt="">
+                    <li class="project-service <?php echo $implementation ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso7.svg" title="Implementación" alt="Implementación">
                       <div class="project-service-text">Implementación</div>
                     </li>
-                    <li class="project-service <?php echo $planification ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso8.svg" alt="">
+                    <li class="project-service <?php echo $planification ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso8.svg" title="Planificación" alt="Planificación">
                       <div class="project-service-text">Planificación</div>
                     </li>
-                    <li class="project-service <?php echo $control ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso9.svg" alt="">
+                    <li class="project-service <?php echo $control ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso9.svg" title="Control de Calidad" alt="Control de Calidad">
                       <div class="project-service-text">Control de Calidad</div>
                     </li>
-                    <li class="project-service <?php echo $close ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso10.svg" alt="">
+                    <li class="project-service <?php echo $close ?>"><img class="d-none d-md-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/process/proceso10.svg" title="Cierre" alt="Cierre">
                       <div class="project-service-text">Cierre</div>
                     </li>
                   </ul>

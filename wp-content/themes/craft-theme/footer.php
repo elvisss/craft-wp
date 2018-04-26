@@ -594,7 +594,7 @@
 
     <?php endif; ?>
 
-    <?php if ( is_page('87') ): ?>
+    <?php if ( is_page('86') ): ?>
 
         <script src="<?php bloginfo('stylesheet_directory'); ?>/js/libs/shuffle.min.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/js/proyectos.js" type="text/javascript"></script>
