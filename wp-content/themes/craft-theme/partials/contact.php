@@ -14,9 +14,3 @@
   <div class="col-2"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-email.svg"></div>
   <div class="col-10 contact-body"><a href="mailto:proyectos@craft.com.pe">proyectos@craft.com.pe</a></div>
 </div>
-<div class="row no-gutters justify-content-between align-items-center single-contact contact-web">
-  <div class="col-2"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/contact-web.svg"></div>
-  <div class="col-10 contact-body">
-    <p><a href="http://www.craft.com.pe">craft.com.pe</a></p>
-  </div>
-</div>
