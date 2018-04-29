@@ -92,9 +92,9 @@
             prevEl: '.swiper-button-prev',
           },
           autoplay: {
-              delay: 5000
+              delay: 5000,
+              disableOnInteraction: false
           },
-          autoplayDisableOnInteraction: false,
           loop: true
         });
 
@@ -104,9 +104,9 @@
             prevEl: '.swiper-button-prev',
           },
           autoplay: {
-              delay: 3000
+              delay: 3000,
+              disableOnInteraction: false
           },
-          autoplayDisableOnInteraction: false,
           loop: true,
           slidesPerView: 5,
           breakpoints: {
@@ -123,9 +123,9 @@
           },
           slidesPerView: 1,
           autoplay: {
-              delay: 8000
+              delay: 8000,
+              disableOnInteraction: false
           },
-          autoplayDisableOnInteraction: false,
           loop: true
         });
 
